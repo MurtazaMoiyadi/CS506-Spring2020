@@ -10,4 +10,3 @@ def read_csv(csv_file_path):
             results.append([eval(x) for x in line.split(',')])
 
     return results
-            
